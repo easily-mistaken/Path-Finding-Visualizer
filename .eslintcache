@@ -40,8 +40,8 @@
     "hashOfConfig": "12"
   },
   {
-    "size": 13480,
-    "mtime": 1664515742099,
+    "size": 13545,
+    "mtime": 1664608704563,
     "results": "16",
     "hashOfConfig": "12"
   },
@@ -74,12 +74,43 @@
     "fatalErrorCount": 0,
     "warningCount": 0,
     "fixableErrorCount": 0,
-    "fixableWarningCount": 0
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": "23"
   },
   "cu2wmr",
   {
-    "filePath": "23",
-    "messages": "24",
+    "filePath": "24",
+    "messages": "25",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": "23"
+  },
+  {
+    "filePath": "26",
+    "messages": "27",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": "23"
+  },
+  {
+    "filePath": "28",
+    "messages": "29",
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": "23"
+  },
+  {
+    "filePath": "30",
+    "messages": "31",
     "errorCount": 0,
     "fatalErrorCount": 0,
     "warningCount": 0,
@@ -87,54 +118,33 @@
     "fixableWarningCount": 0
   },
   {
-    "filePath": "25",
-    "messages": "26",
+    "filePath": "32",
+    "messages": "33",
     "errorCount": 0,
     "fatalErrorCount": 0,
     "warningCount": 0,
     "fixableErrorCount": 0,
-    "fixableWarningCount": 0
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": "23"
   },
   {
-    "filePath": "27",
-    "messages": "28",
+    "filePath": "34",
+    "messages": "35",
     "errorCount": 0,
     "fatalErrorCount": 0,
     "warningCount": 0,
     "fixableErrorCount": 0,
-    "fixableWarningCount": 0
-  },
-  {
-    "filePath": "29",
-    "messages": "30",
-    "errorCount": 0,
-    "fatalErrorCount": 0,
-    "warningCount": 0,
-    "fixableErrorCount": 0,
-    "fixableWarningCount": 0
-  },
-  {
-    "filePath": "31",
-    "messages": "32",
-    "errorCount": 0,
-    "fatalErrorCount": 0,
-    "warningCount": 0,
-    "fixableErrorCount": 0,
-    "fixableWarningCount": 0
-  },
-  {
-    "filePath": "33",
-    "messages": "34",
-    "errorCount": 0,
-    "fatalErrorCount": 0,
-    "warningCount": 0,
-    "fixableErrorCount": 0,
-    "fixableWarningCount": 0
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": "23"
   },
   "/home/prajjwal/Downloads/Path-Finding-Visualizer-main/src/PathfindingVisualizer/PathfindingVisualizer.jsx",
   [],
   "/home/prajjwal/Downloads/Path-Finding-Visualizer/src/index.js",
   [],
+  [
+    "36",
+    "37"
+  ],
   "/home/prajjwal/Downloads/Path-Finding-Visualizer/src/reportWebVitals.js",
   [],
   "/home/prajjwal/Downloads/Path-Finding-Visualizer/src/App.js",
@@ -146,5 +156,23 @@
   "/home/prajjwal/Downloads/Path-Finding-Visualizer/src/PathfindingVisualizer/Node/Node.jsx",
   [],
   "/home/prajjwal/Downloads/Path-Finding-Visualizer/src/algorithms/dijkstra.js",
-  []
+  [],
+  {
+    "ruleId": "38",
+    "replacedBy": "39"
+  },
+  {
+    "ruleId": "40",
+    "replacedBy": "41"
+  },
+  "no-native-reassign",
+  [
+    "42"
+  ],
+  "no-negated-in-lhs",
+  [
+    "43"
+  ],
+  "no-global-assign",
+  "no-unsafe-negation"
 ]

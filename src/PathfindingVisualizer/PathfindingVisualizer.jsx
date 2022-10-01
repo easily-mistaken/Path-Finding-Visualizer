@@ -9,8 +9,8 @@ import "./PathfindingVisualizer.css";
 
 // Defining initial state of start and finish.
 
-let row_max_length = 20;
-let col_max_length = 40;
+let row_max_length = 40;
+let col_max_length = 50;
 
 let START_NODE_ROW = 9;
 let START_NODE_COL = 8;
@@ -84,7 +84,9 @@ export default class PathfindingVisualizer extends Component {
   }
 
   visualizeDijkstra() {
-    this.setState({ topMessage: "Creator : Prajjwal" });
+    this.setState({
+      topMessage: "Creator : Prajjwal, Ansh, Surajdeep, Abhishek",
+    });
     const { grid } = this.state;
     const startNode = grid[START_NODE_ROW][START_NODE_COL];
     const finishNode = grid[FINISH_NODE_ROW][FINISH_NODE_COL];
@@ -258,7 +260,7 @@ export default class PathfindingVisualizer extends Component {
           <small> [1 Block = 1 Time = 1 Weight]</small>
         </h2>
       );
-    } else if (topMessage === "Creator : Prajjwal") {
+    } else if (topMessage === "Creator : Prajjwal, Ansh, Surajdeep, Abhishek") {
       button_task = <h3 className="running">Running...</h3>;
     }
 
