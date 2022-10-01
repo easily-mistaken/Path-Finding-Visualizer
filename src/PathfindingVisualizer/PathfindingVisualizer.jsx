@@ -332,7 +332,7 @@ export default class PathfindingVisualizer extends Component {
       </div>
     );
 
-    if (topMessage === "Creator : Suhaan") {
+    if (topMessage === "Creator : Prajjwal") {
       textBox = null;
     } else if (topMessage === "Shortest Path") {
       textBox = (
